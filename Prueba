@@ -1,1 +1,54 @@
+"""
+Base=0
+altura=0
+altura-input("Ingrese la altura del triangulo")
+altura=input(altura)
+Base-input("Ingrese la base del triangulo")
+Base=int(Base)
+area=Base*altura
+perimetro=(2^Base)*(2^altura)
+print("El area del triangulo es: ")
+print(area)
+print("El perimetro del triangulo es: ")
+print(perimetro)
+print("El area del rectangulo es:")
+print(perimetro)
+"""
+"""
+radio=0
+pi=3.1416
+radio=input("ingrese el valor del radio")
+radio=float(radio)
+area=pi*radio**2
+print("El area del circulo es: ")
+print(area)
+print("El area del perimetro del circulo es: ")
+print(perimetro)
+"""
 
+"""
+#crear las variables para los catetos
+cateto1=0
+cateto2=0
+#pedir los valores de los catetos
+cateto1=input
+#calcular la hipotenusa
+#mostrar el resultado
+"""
+
+from datetime import datetime
+
+def calcularañodenacimiento(nombre, edad):
+    año_actual = datetime.now().year
+    año_nacimiento = año_actual - edad
+    return año_nacimiento
+
+def main():
+    nombre = input("Por favor, ingresa tu nombre: ")
+    edad = int(input("Por favor, ingresa tu edad: "))
+    
+    año_nacimiento = calcular_año_de_nacimiento(nombre, edad)
+    print(f"Hola {nombre}, basado en la información proporcionada, tu año de nacimiento es {año_nacimiento}.")
+
+if _name_ == "main":
+    main()
