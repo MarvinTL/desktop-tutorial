@@ -1,0 +1,19 @@
+def contar_nombres(lista, nombre_a_buscar):
+    contador = 0
+    for nombre in lista:
+        if nombre == nombre_a_buscar:
+            contador += 1
+    return contador
+
+nombres = []
+print("Ingresa los nombres para la lista. Escribe 'fin' para terminar.")
+while True:
+    nombre_ingresado = input("Ingresa un nombre: ")
+    if nombre_ingresado.lower() == 'fin':
+        break
+    nombres.append(nombre_ingresado)
+
+nombre_buscado = input("Ingresa el nombre que deseas buscar en la lista: ")
+
+resultado = contar_nombres(nombres, nombre_buscado)
+print(f"El nombre '{nombre_buscado}' aparece {resultado} veces en la lista.")
