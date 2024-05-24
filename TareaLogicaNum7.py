@@ -10,25 +10,25 @@ def menu1():
 
 def conversion_Km_millas(conversion, distancia):
     if conversion == 'a':
-        return distancia * 0.621371  # Conversión de km a millas
+        return distancia * 0.621371 
     elif conversion == 'b':
-        return distancia * 1.60934   # Conversión de millas a km
+        return distancia * 1.60934   
 
 def conversion_m3_pies(conversion, volumen):
     if conversion == 'a':
-        return volumen * 35.3147  # Conversión de m3 a pies cúbicos
+        return volumen * 35.3147 
     elif conversion == 'b':
-        return volumen / 35.3147  # Conversión de pies cúbicos a m3
+        return volumen / 35.3147 
 
 def conversion_pies_metros_yardas(conversion, distancia):
     if conversion == 'a':
-        return distancia * 0.3048  # Conversión de pies a metros
+        return distancia * 0.3048  
     elif conversion == 'b':
-        return distancia * 3.28084  # Conversión de metros a pies
+        return distancia * 3.28084  
     elif conversion == 'c':
-        return distancia * 0.9144  # Conversión de yardas a metros
+        return distancia * 0.9144  
     elif conversion == 'd':
-        return distancia * 1.09361  # Conversión de metros a yardas
+        return distancia * 1.09361 
 
 while True:
     system('cls')
